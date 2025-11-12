@@ -1,11 +1,38 @@
-h2{
+/* h2{
     color: blue;
     text-align: center;
     }
 p{
         color:brown;
         text-align: center;
+        font-size: 25px;
     }
+    div{
+        height: 200px;
+        width:200px;
+        color:red;
+        background-color:black;
+        text-align:center;
+        align-content:center;
+        padding: 4px;
+        margin: 100px;
+        border: 8px solid pink;
+
+    } */
+     div{
+        padding: 2px;
+        margin: 100px;
+        border: 2px solid rgb(0, 0, 0);}
+     p{
+        color:purple;
+        text-align:center;
+        font-size:25px;
+        height: 3px;
+
+     }
+     p2{
+        color:indianred;
+     }
 
 
 
