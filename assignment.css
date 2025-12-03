@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.box1 { background: black; }
+.box2 { background: yellow; }
+.box3 { background: red; }
+
+
+@media (max-width: 600px) {
+    body{
+        background-color: lightgreen;
+    }
+  .container {
+    display: block; 
+    background-color: palevioletred;  
+  }
+
+  .box {
+    margin-bottom: 15px;   
+  }
+}
