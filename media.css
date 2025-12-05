@@ -1,4 +1,4 @@
-@media (max-width: 780px) {
+/* @media (max-width: 780px) {
 
     p{
         font-size: 20px;
@@ -18,8 +18,8 @@
         background-color: aquamarine;
     }
 
-}
-.box{
+} */
+/* .box{
     height: 1000%;
     width: 100px;
     background-color: green;
@@ -35,11 +35,59 @@ li{
 nav ul{
     display: flex;
     justify-content: space-around;
-}
-@media(max-width: 600px){
-    nav ul{
+} */
+/* @media(max-width: 600px){
+    nav ul{ 
+        dekstop
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: lightgray;
+    }
+} */
+/* @media(max-width: 600px){
+    nav ul{ 
+        mobile
+        display:flex;
+        flex-direction: column;
+    }
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#333;
+    padding:1rem;
+}
+.logo{
+    color:#fff;
+    font-size:1.5rem;
+}
+.menu{
+    display:none;
+    flex-direction: column;
+}
+.menu a{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    padding:1em;
+
+}
+.hamburger{
+    display:none;
+    font-size:2rem;
+    color:#fff;
+    cursor:pointer;
+}
+@media(min-width: 900px){
+    .menu{
+        display:flex;
+        flex-direction: row;
+        position:static;
+        background: none;
+        width:auto
+    }
+    .hamburger{
+        display:flex;
     }
 }
